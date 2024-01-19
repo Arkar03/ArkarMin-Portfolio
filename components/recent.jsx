@@ -84,7 +84,7 @@ export default function Recent() {
       <hr className="my-24 text-[#414141] head" />
       <h1 className=" head text-[28px] md:text-[40px] lg:text-[40px] font-mina font-bold text-left mx-[15%] md:ml-[22%] lg:ml-[22%]">
         <span className="text-[#808080]">Recent Works</span>{" "}
-        <span className="text-[#EA580C]">:</span>
+        <span className="text-[#EA590D]">:</span>
       </h1>
 
       <div className="work1 grid sm:grid-rows-1 md:grid-cols-2 lg:grid-cols-2 gap-0 lg:gap-[75px] h-fit mt-14">
@@ -104,13 +104,13 @@ export default function Recent() {
             Portfolio build with Next.js. U
           </p>
           <div className="flex my-4 space-x-4">
-            <div className="bg-[#EA580C] text-lg text-black text-mina rounded-2xl px-6 py-1">
+            <div className="bg-[#EA590D] text-lg text-black text-mina rounded-2xl px-6 py-1">
               NEXT
             </div>
-            <div className="bg-[#EA580C] text-lg text-black text-mina rounded-2xl px-6 py-1">
+            <div className="bg-[#EA590D] text-lg text-black text-mina rounded-2xl px-6 py-1">
               REACT
             </div>
-            <div className="bg-[#EA580C] text-lg text-black text-mina rounded-2xl px-6 py-1">
+            <div className="bg-[#EA590D] text-lg text-black text-mina rounded-2xl px-6 py-1">
               Tailwind
             </div>
           </div>
@@ -143,13 +143,13 @@ export default function Recent() {
             Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem
           </p>
           <div className="flex my-4 space-x-4">
-            <div className="bg-[#EA580C] text-lg text-black text-mina rounded-2xl px-6 py-1">
+            <div className="bg-[#EA590D] text-lg text-black text-mina rounded-2xl px-6 py-1">
               NEXT
             </div>
-            <div className="bg-[#EA580C] text-lg text-black text-mina rounded-2xl px-6 py-1">
+            <div className="bg-[#EA590D] text-lg text-black text-mina rounded-2xl px-6 py-1">
               REACT
             </div>
-            <div className="bg-[#EA580C] text-lg text-black text-mina rounded-2xl px-6 py-1">
+            <div className="bg-[#EA590D] text-lg text-black text-mina rounded-2xl px-6 py-1">
               Tailwind
             </div>
           </div>
@@ -198,13 +198,13 @@ export default function Recent() {
             Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem
           </p>
           <div className="flex my-4 space-x-4">
-            <div className="bg-[#EA580C] text-lg text-black text-mina rounded-2xl px-6 py-1">
+            <div className="bg-[#EA590D] text-lg text-black text-mina rounded-2xl px-6 py-1">
               NEXT
             </div>
-            <div className="bg-[#EA580C] text-lg text-black text-mina rounded-2xl px-6 py-1">
+            <div className="bg-[#EA590D] text-lg text-black text-mina rounded-2xl px-6 py-1">
               REACT
             </div>
-            <div className="bg-[#EA580C] text-lg text-black text-mina rounded-2xl px-6 py-1">
+            <div className="bg-[#EA590D] text-lg text-black text-mina rounded-2xl px-6 py-1">
               Tailwind
             </div>
           </div>
@@ -237,13 +237,13 @@ export default function Recent() {
             Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem
           </p>
           <div className="flex my-4 space-x-4">
-            <div className="bg-[#EA580C] text-lg text-black text-mina rounded-2xl px-6 py-1">
+            <div className="bg-[#EA590D] text-lg text-black text-mina rounded-2xl px-6 py-1">
               NEXT
             </div>
-            <div className="bg-[#EA580C] text-lg text-black text-mina rounded-2xl px-6 py-1">
+            <div className="bg-[#EA590D] text-lg text-black text-mina rounded-2xl px-6 py-1">
               REACT
             </div>
-            <div className="bg-[#EA580C] text-lg text-black text-mina rounded-2xl px-6 py-1">
+            <div className="bg-[#EA590D] text-lg text-black text-mina rounded-2xl px-6 py-1">
               Tailwind
             </div>
           </div>

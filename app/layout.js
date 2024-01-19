@@ -28,7 +28,7 @@ export default function RootLayout({children}) {
         <SmoothScroll>{children}</SmoothScroll>
         <ProgressBar
           height="4px"
-          color="#EA580C"
+          color="#EA590D"
           options={{showSpinner: false}}
           shallowRouting
         />

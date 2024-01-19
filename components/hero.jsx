@@ -85,8 +85,7 @@ export default function Hero() {
           "+=2"
         )
         .to(".stalk", {y: -150})
-        .to(".stalk-text", 
-        {color:"#EA580C",x:20, duration:3000});
+        .to(".stalk-text", {color: "#EA590D", x: 20, duration: 4000, ease:Power4.easeInOut});
 
       const t2 = gsap.timeline();
       t2.fromTo(
@@ -166,7 +165,7 @@ export default function Hero() {
             I'm
           </span>{" "}
           <span className="text-[#808080]">Arkar Min</span>
-          <span className="text-[#EA580C] fullstop">.</span>
+          <span className="text-[#EA590D] fullstop">.</span>
         </div>
         <div className=" -mt-[15px] lg:-mt-[80px] text-[10.6vw] lg:text-[11vw] font-bold text-[#414141] font-mina hero2">
           <span className="hover:text-[#808080] transition ease-in-out duration-3000">
@@ -184,10 +183,10 @@ export default function Hero() {
           <span className="hover:text-[#808080] transition ease-in-out duration-3000">
             Deve
           </span>
-          <span className="text-[#EA580C] fullstop">-</span>
+          <span className="text-[#EA590D] fullstop">-</span>
         </div>
         <div className=" -mt-[15px] lg:-mt-[80px] text-[10.6vw] lg:text-[11vw] font-bold text-[#414141] font-mina hover:text-[#808080]  hero3">
-          loper<span className="text-[#EA580C]">.</span>
+          loper<span className="text-[#EA590D]">.</span>
         </div>
         <div className="flex flex-col lg:flex-row md:flex-row  justify-between">
           <div className="  lg:stalk flex-row lg:ml-4 px-1">
@@ -204,7 +203,7 @@ export default function Hero() {
             <div className="flex justify-between lg:justify-start md:gap-[60px] lg:gap-[60px] ">
               <div className="flex gap-4">
                 <span class="relative inline-block group">
-                  <span className="absolute inset-0 bg-[#EA580C] -bottom-4 h-1 w-1 group-hover:w-4 transition-all ease-in-out duration-10000"></span>
+                  <span className="absolute inset-0 bg-[#EA590D] -bottom-4 h-1 w-1 group-hover:w-4 transition-all ease-in-out duration-10000"></span>
                   <span className="relative text-white">
                     <a
                       target="_blank"
@@ -216,7 +215,7 @@ export default function Hero() {
                   </span>
                 </span>
                 <span className="relative inline-block group">
-                  <span className="absolute inset-0 bg-[#EA580C] -bottom-4 h-1 w-1 group-hover:w-4 transition-all ease-in-out duration-10000"></span>
+                  <span className="absolute inset-0 bg-[#EA590D] -bottom-4 h-1 w-1 group-hover:w-4 transition-all ease-in-out duration-10000"></span>
                   <span className="relative text-white">
                     <a
                       target="_blank"
@@ -228,7 +227,7 @@ export default function Hero() {
                   </span>
                 </span>
                 <span className="relative inline-block group">
-                  <span className="absolute inset-0 bg-[#EA580C] -bottom-4 h-1 w-1 group-hover:w-4 transition-all ease-in-out duration-10000"></span>
+                  <span className="absolute inset-0 bg-[#EA590D] -bottom-4 h-1 w-1 group-hover:w-4 transition-all ease-in-out duration-10000"></span>
                   <span className="relative text-white">
                     <a
                       target="_blank"
@@ -242,7 +241,7 @@ export default function Hero() {
               </div>
               <div>
                 <span className="relative inline-block group">
-                  <span className="absolute inset-0 bg-[#EA580C] -bottom-4 h-1 w-1 group-hover:w-12 transition-all ease-in-out duration-10000"></span>
+                  <span className="absolute inset-0 bg-[#EA590D] -bottom-4 h-1 w-1 group-hover:w-12 transition-all ease-in-out duration-10000"></span>
                   <span className="relative text-white">
                     <a
                       target="_blank"

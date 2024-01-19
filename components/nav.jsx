@@ -1,5 +1,6 @@
 "use client";
 import {useRef, useEffect} from "react";
+import {Link as ScrollLink, animateScroll as scroll} from "react-scroll";
 import {gsap, Power4, Power2, Power3, Power0} from "gsap";
 
 export default function Nav() {
@@ -23,20 +24,14 @@ export default function Nav() {
     }, comp);
   }, []);
 
-  const scrollToContact = () => {
-    gsap.to(window, {
-      duration: 1,
-      scrollTo: {y: "#contact-section", autoKill: false},
-    });
-  };
   return (
     <div
       ref={comp}
-      className="flex  justify-between py-4  font-merriweather font-bold text-[#777777]"
+      className="flex top justify-between py-4  font-merriweather font-bold text-[#777777]"
     >
       <div className="flex gap-[106px] font-sans ">
         <div className=" text-sm lg:text-[20px] my-auto lg:mt-[35px]">
-          Arkar Min <span className="text-[#EA580C]">;</span>
+          Arkar Min <span className="text-[#EA590D]">;</span>
         </div>
         <div className="hidden md:flex lg:flex flex-col text-sm lg:text-[19px] align-baseline mt-0 lg:mt-4">
           <div>WebDeveloper</div>
@@ -53,12 +48,14 @@ export default function Nav() {
           </div>
         </div>
         <div className=" my-auto lg:mt-4">
-          <button
-            onClick={() => scrollToContact()}
-            className=" text-xs md:text-sm lg:text-[17px] border-2 border-[#777] font-light px-[7px] py-[4px] lg:px-[18px] lg:py-[8px] rounded-md hover:bg-[#EA580C] hover:text-black transition-all ease-linear duration-200"
+          <ScrollLink
+            to="contact"
+            smooth={true}
+            duration={3000}
+            className=" text-xs md:text-sm lg:text-[17px] border-2 border-[#777] font-light px-[7px] py-[4px] lg:px-[18px] lg:py-[8px] rounded-md hover:bg-[#EA590D] hover:text-black transition-all ease-linear duration-200"
           >
             CONTACT
-          </button>
+          </ScrollLink>
         </div>
       </div>
     </div>

@@ -4,6 +4,7 @@ import "react-toastify/dist/ReactToastify.css";
 import {useRef, useEffect} from "react";
 import {gsap, Power4} from "gsap";
 import {ScrollTrigger} from "gsap/ScrollTrigger";
+import {Link as ScrollLink, animateScroll as scroll} from "react-scroll";
 
 export default function Contact() {
   const textRef = useRef();
@@ -87,25 +88,32 @@ export default function Contact() {
       progress: undefined,
       theme: "dark",
     });
+
+  
   return (
-    <div ref={comp} className="pt-12 ">
+    <div id="contact" ref={comp} className="pt-12 ">
       <hr id="contact" className="my-14 text-[#414141] head" />
 
       <h1
         id="contact-section"
         className="head text-[6vw] py-[100px] font-mina font-bold text-left flex justify-center"
       >
-        <p className="text-[#808080] hover:text-[#EA580C] transition-all ease-in-out duration-200">
-          TRYIN<span className="text-[#EA580C]">'</span> TO CONTACT ME{" "}
-          <span className="text-[#EA580C]">?</span>
-        </p>
+        <ScrollLink
+          to="email"
+          smooth={'ture'}
+          duration={800}
+          className="text-[#808080] hover:text-[#EA590D] transition-all ease-in-out duration-200"
+        >
+          TRYIN<span className="text-[#EA590D]">'</span> TO CONTACT ME{" "}
+          <span className="text-[#EA590D]">?</span>
+        </ScrollLink>
       </h1>
       <hr id="email" className=" contact my-14 text-[#414141]" />
       <div className=" contact flex flex-col py-12 group relative w-fit mx-auto">
         <a
           ref={textRef}
           href="mailto: arkarmin.mi@gmail.com?subject=Let's work together!!!"
-          className="font-mina text-[3.5vw] text-[#808080] group-hover:text-[#EA580C] transition-all ease-in-out duration-200 cursor-pointer"
+          className="font-mina text-[3.5vw] text-[#808080] group-hover:text-[#EA590D] transition-all ease-in-out duration-200 cursor-pointer"
         >
           arkarmin.mi@gmail.com
         </a>
@@ -114,7 +122,7 @@ export default function Contact() {
             copyTextToClipboard();
             notify();
           }}
-          className=" text-white hidden group-hover:block hover:bg-[#EA580C] transition-all ease-in-out duration-200  hover:text-black  absolute bottom-0 left-[17%] md:left-[35%] lg:left-[35%] text-[9px] lg:text-[17px] font-mina  border-2 border-[#777] px-[9px] py-[4px] lg:px-[18px] lg:py-[8px] rounded-md "
+          className=" text-white hidden group-hover:block hover:bg-[#EA590D] transition-all ease-in-out duration-200  hover:text-black  absolute bottom-0 left-[17%] md:left-[35%] lg:left-[35%] text-[9px] lg:text-[17px] font-mina  border-2 border-[#777] px-[9px] py-[4px] lg:px-[18px] lg:py-[8px] rounded-md "
         >
           Click to Copy
         </button>
@@ -123,7 +131,7 @@ export default function Contact() {
       <div className=" contact flex flex-col mx-auto w-fit relative py-12 group">
         <div
           ref={phRef}
-          className="font-mina text-[3.5vw] text-[#808080] group-hover:text-[#EA580C] transition-all ease-in-out duration-200 cursor-pointer"
+          className="font-mina text-[3.5vw] text-[#808080] group-hover:text-[#EA590D] transition-all ease-in-out duration-200 cursor-pointer"
         >
           +959890168605
         </div>
@@ -132,7 +140,7 @@ export default function Contact() {
             copyPhoneToClipboard();
             notify();
           }}
-          className=" text-white group-hover:block hidden absolute hover:bg-[#EA580C] transition-all ease-in-out duration-200 bottom-0 left-[17%] md:left-[35%] lg:left-[35%] text-[9px] lg:text-[17px]  hover:text-black w-fit mx-auto font-mina  border-2 border-[#777] px-[9px] py-[4px] lg:px-[18px] lg:py-[8px] rounded-md "
+          className=" text-white group-hover:block hidden absolute hover:bg-[#EA590D] transition-all ease-in-out duration-200 bottom-0 left-[17%] md:left-[35%] lg:left-[35%] text-[9px] lg:text-[17px]  hover:text-black w-fit mx-auto font-mina  border-2 border-[#777] px-[9px] py-[4px] lg:px-[18px] lg:py-[8px] rounded-md "
         >
           Click to Copy
         </button>
