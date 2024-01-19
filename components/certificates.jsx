@@ -78,7 +78,7 @@ export default function Certificates() {
       <h1 className=" head text-[30px] md:text-[40px] lg:text-[40px] font-mina font-bold text-left ml-[9%] md:ml-[22%] lg:ml-[22%]">
         <span className="text-[#808080]">CERTIFICATES</span>{" "}
         <span className="text-[#414141]">I'VE ACHIEVED</span>
-        <span className="text-[#EA580C]">:</span>
+        <span className="text-[#EA590D]">:</span>
       </h1>
 
       <div className="mt-14 w-[80%] md:w-[40%] lg:w-[55%] mx-auto ">
@@ -89,7 +89,7 @@ export default function Certificates() {
               <span className="group-hover:text-white ease-in duration-100">
                 1
               </span>{" "}
-              <span className="text-[#EA580C]">.</span>
+              <span className="text-[#EA590D]">.</span>
             </div>
             <div className="font-bold inline self-center text-[16px] lg:text-[30px] align-bottom text-[#808080] lg:mt-[70px]">
               <span className="group-hover:text-white ease-in duration-100">
@@ -128,7 +128,7 @@ export default function Certificates() {
               <span className="group-hover:text-white ease-in duration-100">
                 2
               </span>{" "}
-              <span className="text-[#EA580C] -ml-[9%]">.</span>
+              <span className="text-[#EA590D] -ml-[9%]">.</span>
             </div>
             <div className="font-bold inline self-center text-[16px] lg:text-[30px] align-bottom text-[#808080] lg:mt-[70px]">
               <span className="group-hover:text-white ease-in duration-100">
@@ -167,7 +167,7 @@ export default function Certificates() {
               <span className="group-hover:text-white ease-in duration-100">
                 3
               </span>{" "}
-              <span className="text-[#EA580C] -ml-[9%]">.</span>
+              <span className="text-[#EA590D] -ml-[9%]">.</span>
             </div>
             <div className="font-bold inline text-end self-center text-[12px] lg:text-[30px] align-bottom text-[#808080] lg:mt-[70px] ">
               <span className="group-hover:text-white ease-in duration-100">
@@ -236,7 +236,7 @@ export default function Certificates() {
               <span className="group-hover:text-white ease-in duration-100">
                 4
               </span>{" "}
-              <span className="text-[#EA580C] -ml-[9%]">.</span>
+              <span className="text-[#EA590D] -ml-[9%]">.</span>
             </div>
             <div className="font-bold inline self-center text-[16px] lg:text-[30px] align-bottom text-[#808080] lg:mt-[70px]">
               <span className="group-hover:text-white ease-in duration-100">

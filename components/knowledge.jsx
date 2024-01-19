@@ -89,12 +89,12 @@ export default function Knowledge() {
 
         <h1 className="text-[28px] md:text-[40px] lg:text-[40px] font-mina font-bold text-left mx-[15%] md:ml-[22%] lg:ml-[22%]">
           <span className="text-[#808080]">KNOWLEDGES</span>{" "}
-          <span className="text-[#EA580C]">:</span>
+          <span className="text-[#EA590D]">:</span>
         </h1>
       </div>
 
       <div className="ml-[25%] text-lg lg:text-4xl  font-light mt-7 lg:mt-14 relative">
-        <ul className="list-disc text-white marker:text-[#EA580C] text-[28px] marker:text-4xl space-y-2">
+        <ul className="list-disc text-white marker:text-[#EA590D] text-[28px] marker:text-4xl space-y-2">
           <li className="know1">Git/Github</li>
           <li className="know2">data structures</li>
           <li className="know3">algorithms</li>

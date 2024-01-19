@@ -1,5 +1,6 @@
 "use client";
 import {useState, useEffect} from "react";
+import {Link as ScrollLink, animateScroll as scroll} from "react-scroll";
 
 export default function Footer() {
   const [currentTime, setCurrentTime] = useState(getFormattedTime());
@@ -29,16 +30,21 @@ export default function Footer() {
       </h1>
       <div className="flex justify-center">
         <span className="relative inline-block group">
-          <span className="absolute inset-0 bg-[#EA580C] -bottom-4 h-1 w-1 group-hover:w-12 transition-all ease-in-out duration-10000"></span>
+          <span className="absolute inset-0 bg-[#EA590D] -bottom-4 h-1 w-1 group-hover:w-12 transition-all ease-in-out duration-10000"></span>
           <span className="relative text-white">
-            <button className="font-meriweather font-light text-[#777777]  text-xs lg:text-md">
+            <ScrollLink
+              to="top"
+              smooth="true"
+              duration={3000}
+              className="font-meriweather font-light text-[#777777]  text-xs lg:text-md"
+            >
               back to top
-            </button>
+            </ScrollLink>
           </span>
         </span>
       </div>
       <div className="font-bold flex justify-end text-[#777777]  text-xs lg:text-md">
-        Arkar Min <span className="text-[#EA580C]">;</span>
+        Arkar Min <span className="text-[#EA590D]">;</span>
       </div>{" "}
     </div>
   );
