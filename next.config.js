@@ -5,6 +5,10 @@ const nextConfig = {
 
     return config;
   },
+  reactStrictMode: true,
+  compiler: {
+    removeConsole: true,
+  },
 };
 
 module.exports = nextConfig;

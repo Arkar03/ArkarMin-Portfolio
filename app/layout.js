@@ -13,7 +13,6 @@ import Progress from "@/components/progress";
 export default function RootLayout({children}) {
   return (
     <html lang="en">
-      <link rel="preconnect" href="https://fonts.googleapis.com"></link>
       <link
         href="https://fonts.googleapis.com/css2?family=Mina&display=swap"
         rel="stylesheet"
@@ -21,8 +20,11 @@ export default function RootLayout({children}) {
       <link
         rel="preconnect"
         href="https://fonts.gstatic.com"
-        crossorigin
+        crossOrigin="true"
       ></link>
+      <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+
+      <link rel="icon" href="/favicon.ico" sizes="any" />
 
       <body>
         <Progress />

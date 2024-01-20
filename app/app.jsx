@@ -13,7 +13,7 @@ import Loading from "@/components/Loading";
 
 export default function App() {
   const [preloader, setPreloader] = useState(true);
-  const [timer, setTimer] = useState(3);
+  const [timer, setTimer] = useState(2);
 
   const id = useRef(null);
 
