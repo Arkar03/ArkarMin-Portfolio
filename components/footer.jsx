@@ -36,7 +36,7 @@ export default function Footer() {
               to="top"
               smooth="true"
               duration={3000}
-              className="font-meriweather font-light text-[#777777]  text-xs lg:text-md"
+              className=" cursor-pointer font-meriweather font-light text-[#777777]  text-xs lg:text-md"
             >
               back to top
             </ScrollLink>

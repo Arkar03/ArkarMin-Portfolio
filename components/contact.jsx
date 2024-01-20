@@ -102,7 +102,7 @@ export default function Contact() {
           to="email"
           smooth={'ture'}
           duration={800}
-          className="text-[#808080] hover:text-[#EA590D] transition-all ease-in-out duration-200"
+          className=" cursor-pointer text-[#808080] hover:text-[#EA590D] transition-all ease-in-out duration-200"
         >
           TRYIN<span className="text-[#EA590D]">'</span> TO CONTACT ME{" "}
           <span className="text-[#EA590D]">?</span>

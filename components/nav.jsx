@@ -48,13 +48,26 @@ export default function Nav() {
           </div>
         </div>
         <div className=" my-auto lg:mt-4">
+          {/* <ScrollLink
+            to="contact"
+            smooth={true}
+            duration={3000}
+            className=" cursor-pointer text-xs md:text-sm lg:text-[17px] border-2 border-[#777] font-light px-[7px] py-[4px] lg:px-[18px] lg:py-[8px] rounded-md hover:bg-[#EA590D] hover:text-black transition-all ease-linear duration-200"
+          >
+            CONTACT
+          </ScrollLink> */}
           <ScrollLink
             to="contact"
             smooth={true}
             duration={3000}
-            className=" text-xs md:text-sm lg:text-[17px] border-2 border-[#777] font-light px-[7px] py-[4px] lg:px-[18px] lg:py-[8px] rounded-md hover:bg-[#EA590D] hover:text-black transition-all ease-linear duration-200"
+            class=" cursor-pointer relative inline-flex items-center justify-start  px-[8px] py-[4px] lg:px-[24px] lg:py-[10px] overflow-hidden font-light rounded-md group"
           >
-            CONTACT
+            <span class="w-32 h-32 rotate-45 translate-x-12 -translate-y-2 absolute left-0 top-0 bg-[#777] opacity-[3%]"></span>
+            <span class="absolute top-0 left-0 w-48 h-48 -mt-1 transition-all duration-500 ease-in-out rotate-45 -translate-x-56 -translate-y-24 bg-[#777] opacity-100 group-hover:-translate-x-8"></span>
+            <span class="text-xs md:text-sm lg:text-[17px] relative w-full text-left text-[#777] transition-colors duration-200 ease-in-out group-hover:text-white">
+              Contact
+            </span>
+            <span class="absolute inset-0 border-[2px] border-[#777] rounded-md"></span>
           </ScrollLink>
         </div>
       </div>

@@ -101,17 +101,31 @@ export default function Recent() {
             Arkar Min's Portfolio 24 - 25
           </h1>
           <p className="font-mina text-[#808080] text-sm lg:text-md">
-            Portfolio build with Next.js. U
+            I crafted a dynamic portfolio leveraging the power of Next.js,
+            seamlessly blending a sleek frontend with Tailwind CSS for a
+            polished aesthetic. To elevate the user experience, I incorporated
+            Lenis animations and harnessed the fluidity of GSAP for captivating
+            motion effects. This fusion of cutting-edge technologies results in
+            a visually stunning and engaging showcase of my work.
           </p>
-          <div className="flex my-4 space-x-4">
-            <div className="bg-[#EA590D] text-lg text-black text-mina rounded-2xl px-6 py-1">
+          <div className="flex flex-wrap my-4 space-x-4 ">
+            <div className="bg-[#EA590D] text-sm text-black text-mina rounded-2xl my-2 px-6 py-1">
               NEXT
             </div>
-            <div className="bg-[#EA590D] text-lg text-black text-mina rounded-2xl px-6 py-1">
+            <div className="bg-[#EA590D] text-sm text-black text-mina rounded-2xl my-2 px-6 py-1">
+              Node
+            </div>
+            <div className="bg-[#EA590D] text-sm text-black text-mina rounded-2xl my-2 px-6 py-1">
               REACT
             </div>
-            <div className="bg-[#EA590D] text-lg text-black text-mina rounded-2xl px-6 py-1">
+            <div className="bg-[#EA590D] text-sm text-black text-mina rounded-2xl my-2 px-6 py-1">
               Tailwind
+            </div>
+            <div className="bg-[#EA590D] text-sm text-black text-mina rounded-2xl my-2 px-6 py-1">
+              Lenis
+            </div>
+            <div className="bg-[#EA590D] text-sm text-black text-mina rounded-2xl my-2 px-6 py-1">
+              GSAP
             </div>
           </div>
           <div className="flex gap-4">

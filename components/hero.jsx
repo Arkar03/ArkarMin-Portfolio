@@ -84,8 +84,13 @@ export default function Hero() {
           },
           "+=2"
         )
-        .to(".stalk", {y: -150})
-        .to(".stalk-text", {color: "#EA590D", x: 20, duration: 4000, ease:Power4.easeInOut});
+
+        .to(".stalk-text", {
+          color: "#EA590D",
+          x: 20,
+          duration: 4000,
+          ease: Power4.easeInOut,
+        });
 
       const t2 = gsap.timeline();
       t2.fromTo(
@@ -116,18 +121,7 @@ export default function Hero() {
           {y: 0, opacity: 1, duration: 1.4},
           0
         )
-        .fromTo(
-          ".stalk",
-          {y: 80, opacity: 0},
-          {y: 0, opacity: 1, duration: 0.4},
-          0
-        )
-        .fromTo(
-          ".stalk-mobile",
-          {y: 80, opacity: 0},
-          {y: 0, opacity: 1, duration: 0.8},
-          0
-        )
+
         // .fromTo(
         //   ".about-mobile",
         //   {y: 80, opacity: 0},
@@ -255,7 +249,7 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          <div className=" text-[13px] lg:text-[16px] text-white relative about-mobile about  max-w-[450px] justify-center mt-12 px-12 lg:px-0 md:-mt-[10%] lg:-mt-[114px] text-justify align-bottom mr-0 lg:mr-10">
+          <div className=" text-[13px] lg:text-[16px] text-white relative  about  max-w-[450px] justify-center mt-12 px-12 lg:px-0 md:-mt-[10%] lg:-mt-[114px] text-justify align-bottom mr-0 lg:mr-10">
             <span className="font-caveat text-shadow-lg italic ">About </span>
             <span className="font-merriweather bg-[#111111]">
               I am a junior web developer based in Yangon, Myanmar, driven by a

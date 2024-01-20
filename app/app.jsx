@@ -7,11 +7,13 @@ import Tech from "@/components/tech";
 import Knowledge from "@/components/knowledge";
 import Contact from "@/components/contact";
 import Footer from "@/components/footer";
-import {useEffect, useRef, useState} from "react";
+
+import {Suspense, useEffect, useRef, useState} from "react";
+import Loading from "@/components/Loading";
 
 export default function App() {
-  const [preloader, setPreloader] = useState(false);
-  const [timer, setTimer] = useState(4);
+  const [preloader, setPreloader] = useState(true);
+  const [timer, setTimer] = useState(3);
 
   const id = useRef(null);
 
@@ -35,7 +37,7 @@ export default function App() {
   return (
     <>
       {preloader ? (
-        <div>loading</div>
+        <Loading />
       ) : (
         <div
           id="nav"
