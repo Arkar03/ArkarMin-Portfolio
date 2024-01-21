@@ -140,12 +140,12 @@ export default function Recent() {
               </a>
             </div>
             <img src="/line.svg" alt="line" />
-            <div className="flex gap-4">
+            <a target="__blank" href="https://arkarmin.vercel.app/" className="flex gap-4">
               <img src="/eye.svg" alt="github" />
               <p className="font-light font-mina text-[#808080]">
                 live preview
               </p>
-            </div>
+            </a>
           </div>
         </div>
       </div>

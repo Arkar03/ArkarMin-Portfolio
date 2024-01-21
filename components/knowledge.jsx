@@ -78,6 +78,26 @@ export default function Knowledge() {
             duration: 0.4,
             // transitionDelay: 0.3,
           }
+        )
+        .fromTo(
+          ".know6",
+          {y: 30, opacity: 0},
+          {
+            y: 0,
+            opacity: 1,
+            duration: 0.4,
+            // transitionDelay: 0.3,
+          }
+        )
+        .fromTo(
+          ".know7",
+          {y: 30, opacity: 0},
+          {
+            y: 0,
+            opacity: 1,
+            duration: 0.4,
+            // transitionDelay: 0.3,
+          }
         );
       return () => ctx.revert();
     }, comp);
@@ -99,7 +119,9 @@ export default function Knowledge() {
           <li className="know2">data structures</li>
           <li className="know3">algorithms</li>
           <li className="know4">design patterns</li>
-          <li className="know5">UI / UX</li>
+          <li className="know5">OS</li>
+          <li className="ml-9 know6">Windows / Ubuntu</li>
+          <li className="know7">UI / UX</li>
         </ul>
       </div>
     </div>
