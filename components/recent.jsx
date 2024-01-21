@@ -176,7 +176,7 @@ export default function Recent() {
             </div>
           </div>
           <div className="flex gap-4">
-            <div className="flex gap-4">
+            <div className="flex gap-4 cursor-not-allowed">
               <img src="/github.svg" alt="github" />
               <p className="font-light font-mina text-[#808080] mt-4">
                 Github Repo

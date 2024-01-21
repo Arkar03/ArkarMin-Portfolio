@@ -161,7 +161,7 @@ export default function Hero() {
           <span className="text-[#808080]">Arkar Min</span>
           <span className="text-[#EA590D] fullstop">.</span>
         </div>
-        <div className=" -mt-[15px] lg:-mt-[80px] text-[10.6vw] lg:text-[11vw] font-bold text-[#414141] font-mina hero2">
+        <div className=" -mt-[15px] lg:-mt-[80px] text-[10vw] lg:text-[11vw] font-bold text-[#414141] font-mina hero2">
           <span className="hover:text-[#808080] transition ease-in-out duration-3000">
             I'm
           </span>{" "}
