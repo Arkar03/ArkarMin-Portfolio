@@ -89,7 +89,6 @@ export default function Contact() {
       theme: "dark",
     });
 
-  
   return (
     <div id="contact" ref={comp} className="pt-12 ">
       <hr id="contact" className="my-14 text-[#414141] head" />
@@ -100,7 +99,7 @@ export default function Contact() {
       >
         <ScrollLink
           to="email"
-          smooth={'ture'}
+          smooth={"ture"}
           duration={800}
           className=" cursor-pointer text-[#808080] hover:text-[#EA590D] transition-all ease-in-out duration-200"
         >
@@ -129,12 +128,13 @@ export default function Contact() {
       </div>
       <hr className=" contact my-14 text-[#414141]" />
       <div className=" contact flex flex-col mx-auto w-fit relative py-12 group">
-        <div
+        <a
+          href={`tel:+959890168605`}
           ref={phRef}
           className="font-mina text-[3.5vw] text-[#808080] group-hover:text-[#EA590D] transition-all ease-in-out duration-200 cursor-pointer"
         >
           +959890168605
-        </div>
+        </a>
         <button
           onClick={() => {
             copyPhoneToClipboard();
