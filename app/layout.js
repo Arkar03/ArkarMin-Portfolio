@@ -5,6 +5,8 @@ import {AppProgressBar as ProgressBar} from "next-nprogress-bar";
 import {ToastContainer} from "react-toastify";
 import SmoothScroll from "@/components/smooth_scroll";
 import Progress from "@/components/progress";
+import {Analytics} from "@vercel/analytics/react";
+
 // export const metadata = {
 //   title: "Arkar Min portfolio",
 //   description: "Arkar Min's portfolio",
@@ -28,7 +30,10 @@ export default function RootLayout({children}) {
 
       <body>
         <Progress />
-        <SmoothScroll> {children}</SmoothScroll>
+        <SmoothScroll>
+          {children}
+          <Analytics />
+        </SmoothScroll>
         {/* <ProgressBar
           height="4px"
           color="#EA590D"
