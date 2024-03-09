@@ -33,20 +33,19 @@ export default function Nav() {
         <div className=" text-sm lg:text-[20px] my-auto lg:mt-[35px]">
           Arkar Min <span className="text-[#EA590D]">;</span>
         </div>
-        <div className="hidden md:flex lg:flex flex-col text-sm lg:text-[19px] align-baseline mt-0 lg:mt-4">
+        {/* <div className="hidden md:flex lg:flex flex-col text-sm lg:text-[19px] align-baseline mt-0 lg:mt-4">
           <div>WebDeveloper</div>
           <div className="">FOLIO / 24 - 25</div>
-        </div>
+        </div> */}
       </div>
       <div className=" flex gap-[106px] font-sans ">
-        <div className="hidden md:flex lg:flex">
-          <div className="w-3 h-3 my-auto mr-4 rounded-full bg-[#38E449] blur-[1.5px] border-[#38E449] border-4 animate-pulse"></div>{" "}
-          {/* hover:blur-[0.5px] transition-all duration-150 */}
+        {/* <div className="hidden md:flex lg:flex">
+          <div className="w-3 h-3 my-auto mr-4 rounded-full bg-[#e43838] blur-[1.5px] border-[#e43838] border-4 animate-pulse"></div>{" "}
           <div className=" flex-col text-sm lg:text-[19px] align-baseline lg:mt-3">
             <div>Available for</div>
             <div className="">Work</div>
           </div>
-        </div>
+        </div> */}
         <div className=" my-auto lg:mt-4">
           {/* <ScrollLink
             to="contact"
